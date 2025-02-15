@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetWise - Login</title>
+    <link rel="stylesheet" href="styles/login.css"> <!-- Separate CSS for Login -->
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/budgetwiselogo.webp" alt="BudgetWise Logo">
+            <h1>BudgetWise</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="portfolio.html">My Portfolio</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="btn-launch active">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Form Section -->
+    <section class="login-section">
+        <div class="container">
+            <h2>Welcome Back</h2>
+            <p>Log in to access your financial portfolio and manage your budget efficiently.</p>
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit" class="btn-login">Login</button>
+            </form>
+            <p class="register-link">Don't have an account? <a href="register.html">Register here</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BudgetWise. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts/login.js"></script> <!-- Separate JS for Login Logic -->
+</body>
+</html>
